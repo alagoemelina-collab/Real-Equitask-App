@@ -4,7 +4,7 @@ const Invite = require("../models/Invite");
 const Notification = require("../models/Notification");
 const { protect } = require("../middleware/auth");
 const User = require("../models/User");
-const { sendInviteEmail } = require("../utils/emailservice");
+const { sendInviteEmail } = require("../utils/emailService"); //Casing fix from emailservice to emailService
  
 const router = express.Router();
  
